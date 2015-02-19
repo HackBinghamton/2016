@@ -134,11 +134,30 @@ textarea {
 }
 
 
+.about__info-container {
+  display: flex;
+}
+
+.about__details {
+  display: flex;
+}
+
+.about__details__item {
+  flex: 1;
+}
 
 
+.map {
+  height: 400px;
+}
 
+.faq__row {
+  display: flex;
+}
 
-
+.faq__row__item {
+  flex: 1;
+}
 
 
 /* ==========================================================================
