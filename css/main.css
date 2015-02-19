@@ -126,9 +126,9 @@ textarea {
 
 .header__cta__hackbu {
   display: block;
-  height: 4.188em;
   margin: 9em auto;
-  width: 29.688em;
+  max-height: 4.188em;
+  max-width: 29.688em;
 }
 
 .header__cta__buttons {
