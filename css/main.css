@@ -106,10 +106,17 @@ textarea {
 }
 
 .section__empty-text {
-  color: #dedede;
   font-size: 1.3em;
   padding: 4em 0;
   text-align: center;
+}
+
+.section__empty-text--light {
+  color: #dedede;
+}
+
+.section__empty-text--dark {
+  color: #b5b5b5;
 }
 
 
