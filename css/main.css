@@ -63,10 +63,13 @@ textarea {
 .button {
   border-radius: 3px;
   border-style: solid;
-  border-width: 1px;
+  border-width: 2px;
   display: inline-block;
+  font-size: 0.875em;
+  font-weight: 700;
+  letter-spacing: 3px;
   line-height: 1;
-  min-width: 10.625em;
+  min-width: 11.250em;
   padding: 1em;
   text-align: center;
   text-decoration: none;
@@ -78,6 +81,10 @@ textarea {
   color: #fff;
 }
 
+.button--gray {
+  border-color: #4D5666;
+  color: #4D5666;
+}
 
 .section {
   padding: 2em 1em;
@@ -91,7 +98,9 @@ textarea {
 }
 
 .header {
-  background: #353C47;
+  background: url("../img/header-background.jpg");
+  background-size: cover;
+  background-position: bottom;
 }
 
 .header__navigation {
@@ -131,18 +140,24 @@ textarea {
 
 .header__cta__hackbu {
   display: block;
-  margin: 9em auto;
-  max-height: 4.188em;
-  max-width: 29.688em;
+  margin: 9em auto 3em auto;
+  max-height: 4.375em;
+  max-width: 30.625em;
+}
+
+.header__cta__tagline {
+  color: #fff;
+  font-family: "Karla";
+  font-size: 1.085em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-bottom: 8em;
+  text-align:center;
 }
 
 .header__cta__buttons {
   margin: 3em 0;
-  font-size: 0.875em;
-  font-weight: semibold;
-  letter-spacing: 3px;
   text-align: center;
-  text-transform: uppercase;
 
 }
 
@@ -173,12 +188,17 @@ textarea {
   flex: 1;
 }
 
+.about__graphic {
+  height: 310px;
+  width: 360px;
+}
+
 .about__details__item__title {
   border-top: 2px solid #40B26F;
   color: #40B26F;
   display: inline-block;
   font-family: "Karla";
-  font-size: 0.844em;
+  font-size: 0.9em;
   font-weight: bold;
   letter-spacing: 0.5px;
   padding-top: 4px;
@@ -188,14 +208,23 @@ textarea {
 
 .about__details__item__detail {
   font-size: 1.125em;
-  line-height: 1.500em;
   letter-spacing: 0.5px;
+  line-height: 1.500em;
 }
 
 
 
 .map {
   height: 400px;
+}
+
+
+.sponsors {
+  background: #EDEDED;
+}
+
+.sponsors__buttons {
+  text-align: center;
 }
 
 .faq__row {
@@ -214,9 +243,58 @@ textarea {
   letter-spacing: 0.5px;
 }
 
-.faq__contact {
+.faq__contact__icon {
+  display: block;
+  margin: 3em auto;
+  height: 1.563em;
+  width: 2.500em;
+}
+
+.faq__contact__text {
   font-size: 1.250em;
   text-align: center;
+}
+
+.faq__contact__text a {
+  color: #40B26F;
+  text-decoration: none;
+}
+
+.footer {
+  background: #EDEDED;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__about {
+  color: #4D5666;
+  font-size: 0.75em;
+  letter-spacing: 0.5px;
+
+}
+
+.footer a {
+  color: #4D5666;
+
+}
+.footer__social__list {
+  color: #4D5666;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.footer__social__list li {
+  align-items: center;
+  display: flex;
+}
+
+.footer__social__list a {
+  display: inline-block;
+  padding: .5em;
+  text-decoration: none;
 }
 
 
