@@ -81,6 +81,12 @@ textarea {
   padding: 2em 1em;
 }
 
+.section__title {
+  color: #4D5666;
+  font-family: "Karla", sans-serif;
+  font-size: 2.750em;
+  
+}
 
 .header {
   background: #353C47;
