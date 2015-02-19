@@ -15,7 +15,7 @@ html {
   color: #646A75;
   font-family: "proxima-nova", sans-serif;
   font-size: 1em;
-  line-height: 1.4;
+  line-height: 1.5;
 }
 
 *, *:before, *:after {
@@ -59,6 +59,7 @@ textarea {
    HackBU Hackathon 2015
    ========================================================================== */
 
+
 .button {
   border-radius: 3px;
   border-style: solid;
@@ -85,7 +86,8 @@ textarea {
   color: #4D5666;
   font-family: "Karla", sans-serif;
   font-size: 2.750em;
-  
+  font-weight: bold;
+
 }
 
 .header {
@@ -105,8 +107,12 @@ textarea {
 
 .header__navigation__list {
   display: flex;
+  font-size: 0.875em;
+  font-weight: semibold;
+  letter-spacing: 3px;
   list-style: none;
   text-align: right;
+  text-transform: uppercase;
   margin: 0;
   padding: 0;
 }
@@ -132,16 +138,27 @@ textarea {
 
 .header__cta__buttons {
   margin: 3em 0;
+  font-size: 0.875em;
+  font-weight: semibold;
+  letter-spacing: 3px;
   text-align: center;
+  text-transform: uppercase;
+
 }
 
 .header__cta__buttons__button {
-  margin: 0 1em;
+  margin: 0 0.4em;
 }
 
 
 .about__info-container {
   display: flex;
+}
+
+.about__info__description {
+  font-size: 1.563em;
+  letter-spacing: 0.5px;
+  line-height: 2.250em;
 }
 
 .about__details {
@@ -150,6 +167,22 @@ textarea {
 
 .about__details__item {
   flex: 1;
+}
+
+.about__details__item__title {
+  color: #40B26F;
+  font-family: "Karla";
+  font-size: 0.844em;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+
+}
+
+.about__details__item__detail {
+  font-size: 1.125em;
+  line-height: 1.500em;
+  letter-spacing: 0.5px;
 }
 
 
@@ -163,6 +196,19 @@ textarea {
 
 .faq__row__item {
   flex: 1;
+}
+
+.faq__row__item__question {
+  color: #4D5666;
+  font-family: "Karla";
+  font-size: 1.375em;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.faq__contact {
+  font-size: 1.250em;
+  text-align: center;
 }
 
 
