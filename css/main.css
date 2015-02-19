@@ -92,6 +92,7 @@ textarea {
   max-width: 1100px;
 }
 
+
 .section {
   padding: 2em 1em;
 }
@@ -101,7 +102,16 @@ textarea {
   font-family: "Karla", sans-serif;
   font-size: 2.750em;
   font-weight: 700;
+  margin-top: 0;
 }
+
+.section__empty-text {
+  color: #dedede;
+  font-size: 1.3em;
+  padding: 4em 0;
+  text-align: center;
+}
+
 
 .header {
   background: url("../img/header-background.jpg");
@@ -219,7 +229,6 @@ textarea {
 }
 
 
-
 .map {
   height: 400px;
 }
@@ -239,6 +248,14 @@ textarea {
 
 .faq__row__item {
   flex: 1;
+}
+
+.faq__row__item:first-child {
+  padding-right: 3em;
+}
+
+.faq__row__item:last-child {
+  padding-left: 3em;
 }
 
 .faq__row__item__question {
@@ -268,6 +285,9 @@ textarea {
 
 .footer {
   background: #EDEDED;
+}
+
+.footer-container {
   display: flex;
   justify-content: space-between;
 }
@@ -276,7 +296,6 @@ textarea {
   color: #4D5666;
   font-size: 0.75em;
   letter-spacing: 0.5px;
-
 }
 
 .footer a {
