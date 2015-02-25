@@ -248,7 +248,7 @@ textarea {
   font-size: 1.125em;
   letter-spacing: 0.5px;
   line-height: 1.500em;
-}
+}   
 
 
 .map {
@@ -352,6 +352,94 @@ textarea {
   display: inline-block;
   padding: .5em;
   text-decoration: none;
+}
+
+
+/* ==========================================================================
+   Media queries
+   ========================================================================== */
+
+@media only screen and (max-width : 810px) {
+
+  .about__info-container {
+    flex-direction: column-reverse;
+  }
+
+  .about__graphic {
+    margin: 3em auto;
+  }
+
+  .about__info {
+    margin: auto;
+    padding: 0 2em;
+  }
+
+  .faq__row__item:first-child {
+    padding-right: 1.5em;
+  }
+
+  .faq__row__item:last-child {
+    padding-left: 1.5em;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .logo--header {
+    margin: auto;
+  }
+
+  .header__cta__hackbu {
+    width: 90%;
+  }
+
+  .header__navigation__list {
+    display: none;
+  }
+
+  .faq__row {
+    flex-direction: column;
+  }
+
+  .faq__row__item {
+    padding: 0.5em 1.5em;
+  }
+
+  .section__title {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 440px) {
+
+  .header__cta__hackbu {
+    margin: 6em auto 3em auto;
+  }
+
+  .header__cta__tagline {
+    margin-bottom: 4em;
+  }
+
+  .header__cta__buttons {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .button--white {
+    margin-top: 12px;
+  }
+
+  .about__graphic {
+    width: 90%;
+  }
+
+  .about__details {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 
