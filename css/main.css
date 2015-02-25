@@ -207,10 +207,10 @@ textarea {
 .about__info {
   display: flex;
   flex: 1;
+  flex-direction: column;
 }
 
 .about__info__description {
-  flex-direction: column;
   flex: 1;
   font-size: 1.4em;
   letter-spacing: 0.5px;
@@ -219,7 +219,6 @@ textarea {
 
 .about__details {
   display: flex;
-  margin-top: 40px;
 }
 
 .about__details__item {
