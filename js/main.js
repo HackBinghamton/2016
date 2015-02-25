@@ -9,7 +9,7 @@ function initialize_maps() {
     streetViewControl: false,
     disableDefaultUI: true,
     styles: [
-      {"stylers":[{"hue":"#D9E9E0"}]},
+      {"stylers":[{"hue":"#40B26F"}]},
       {"featureType":"road","elementType":"labels","stylers":[{"visibility":"off"}]},
       {"featureType":"road","elementType":"geometry","stylers":[{"lightness":100},
       {"visibility":"simplified"}]}]
