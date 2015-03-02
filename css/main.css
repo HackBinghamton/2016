@@ -343,7 +343,6 @@ textarea {
   font-weight: 600;
   padding: 5px 0;
   width: 30%;
-
 }
 
 .schedule__table__event {
@@ -599,6 +598,10 @@ textarea {
     display: none;
   }
 
+.map {
+  height: 300px;
+}
+
   .faq__row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -652,8 +655,12 @@ textarea {
             flex-direction: column;
   }
 
+  .map {
+  height: 200px;
 }
 
+}
+v
 
 /* ==========================================================================
    Helper classes
