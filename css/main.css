@@ -321,7 +321,7 @@ textarea {
   padding-bottom: 20px;
 }
 
-.schedule__table__date-day {
+.schedule__table__date__day {
   border-top: 2px solid #40B26F;
   color: #40B26F;
   display: inline-block;
@@ -334,7 +334,7 @@ textarea {
   text-transform: uppercase;
 }
 
-.schedule__table__date-date {
+.schedule__table__date__date {
   display: block;
   font-size: 0.85em;
 }
