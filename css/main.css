@@ -315,7 +315,6 @@ textarea {
 
 .schedule__table {
   width: 33.333333%;
-  font-size: 0.9em;
 }
 
 .schedule__table__date {
@@ -336,7 +335,7 @@ textarea {
 
 .schedule__table__date-date {
   display: block;
-  font-size: 0.93em;
+  font-size: 0.9em;
 }
 
 .schedule__table__time {
@@ -572,7 +571,6 @@ textarea {
 }
 
 .schedule__table {
-  font-size: 1em;
   margin: 20px auto;
   width:80%;
 }
