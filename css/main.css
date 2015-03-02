@@ -80,6 +80,8 @@ textarea {
 .button--white {
   border-color: #fff;
   color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .button--white:hover {
@@ -136,6 +138,8 @@ textarea {
   background-size: cover;
   background-position: bottom;
   padding-top: 2em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .header__navigation {
@@ -161,7 +165,7 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   font-size: 0.875em;
-  font-weight: semibold;
+  font-weight: 600;
   letter-spacing: 3px;
   list-style: none;
   text-align: right;
@@ -191,7 +195,7 @@ textarea {
 .header__navigation__list__item:hover {
   border-top: 2px solid #FFF;
   margin-top: -2px;
-  padding: 12px 0;
+  padding: 10px 0;
   text-transform: uppercase;
 
 }
@@ -568,6 +572,7 @@ textarea {
 }
 
 .schedule__table {
+  font-size: 1em;
   margin: 20px auto;
   width:80%;
 }
