@@ -67,6 +67,7 @@ textarea {
   border-width: 2px;
   display: inline-block;
   font-size: 0.875em;
+  font-weight: 600;
   letter-spacing: 3px;
   line-height: 1;
   min-width: 13.6em;
@@ -187,6 +188,14 @@ textarea {
   text-decoration: none;
 }
 
+.header__navigation__list__item:hover {
+  border-top: 2px solid #FFF;
+  margin-top: -2px;
+  padding: 12px 0;
+  text-transform: uppercase;
+
+}
+
 .header__cta__hackbu {
   display: block;
   margin: 9em auto 3em auto;
@@ -292,9 +301,49 @@ textarea {
   height: 400px;
 }
 
+.schedule__table-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 64.528px 0 0;
+}
 
 .schedule__table {
-  width: 100%;
+  width: 33.333333%;
+  font-size: 0.9em;
+}
+
+.schedule__table__date {
+  padding-bottom: 20px;
+}
+
+.schedule__table__date-day {
+  border-top: 2px solid #40B26F;
+  color: #40B26F;
+  display: inline-block;
+  font-family: "Karla";
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  margin-bottom: 0;
+  padding: 4px 0;
+  text-transform: uppercase;
+}
+
+.schedule__table__date-date {
+  display: block;
+  font-size: 0.93em;
+}
+
+.schedule__table__time {
+  font-weight: 600;
+  padding: 5px 0;
+  width: 30%;
+
+}
+
+.schedule__table__event {
+  width: 70%;
 }
 
 
@@ -481,8 +530,17 @@ textarea {
    Media queries
    ========================================================================== */
 
-@media only screen and (max-width : 810px) {
+@media only screen and (max-width : 950px) {
+  .about__graphic {
+    margin-left: 3em;
+  }
+}
 
+@media only screen and (max-width : 850px) {
+
+  .container {
+    width: 90%;
+  }
   .about__info-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -500,6 +558,19 @@ textarea {
     padding: 0 2em;
   }
 
+
+.schedule__table-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.schedule__table {
+  margin: 20px auto;
+  width:80%;
+}
   .faq__row__item:first-child {
     padding-right: 1.5em;
   }

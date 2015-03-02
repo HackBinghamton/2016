@@ -35,10 +35,10 @@
             </svg>
           </a>
           <ul class="header__navigation__list">
-            <li><a href="#about">About</a></li>
-            <li><a href="#schedule">Schedule</a></li>
-            <li><a href="#sponsors">Sponsors</a></li>
-            <li><a href="#faq">FAQ</a></li>
+            <li><a href="#about"><span class="header__navigation__list__item">About</span></a></li>
+            <li><a href="#schedule"><span class="header__navigation__list__item">Schedule</a></li>
+            <li><a href="#sponsors"><span class="header__navigation__list__item">Sponsors</a></li>
+            <li><a href="#faq"><span class="header__navigation__list__item">FAQ</a></li>
           </ul>
         </div>
         <div class="header__cta">
@@ -66,7 +66,7 @@
               <div class="about__details__item about__details__item--time">
                 <h4 class="about__details__item__title">When</h4>
                 <p class="about__details__item__detail">March 20 - 22, 2015 <br>
-                6:00pm</p>
+                6:00 pm</p>
               </div>
               <div class="about__details__item about__details__item--location">
                 <h4 class="about__details__item__title">Where</h4>
@@ -86,82 +86,97 @@
     <div id="schedule" class="section schedule">
       <div class="container">
         <h2 class="section__title">Schedule</h2>
-        <table class="schedule__table">
-          <thead>
-            <tr class="schedule__table__date">
-              <td colspan="2">Friday, March 20, 2015</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="schedule__table__time">5:30 - 6:30 p.m.</td>
-              <td class="schedule__table__event">Check-in</td>
-            </tr>
-            <tr>
-              <td class="schedule__table__time">6:30 - 7:00 p.m.</td>
-              <td class="schedule__table__event">Opening talks</td>
-            </tr>
-            <tr>
-              <td class="schedule__table__time">7:00 - 8:00 p.m.</td>
-              <td class="schedule__table__event">Dinner</td>
-              <td class="schedule__table__event"></td>
-            </tr>
-            <tr>
-              <td class="schedule__table__time">8:00 p.m.</td>
-              <td class="schedule__table__event">Hacking begins</td>
-            </tr>
-          </tbody>
-          <thead>
-            <tr class="schedule__table__date">
-              <td colspan="2">Saturday, March 21, 2015</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="schedule__table__time">1:00 a.m.</td>
-              <td class="schedule__table__event">Late-night snack</td>
-            </tr>
-            <tr>
-              <td class="schedule__table__time">8:00 a.m.</td>
-              <td class="schedule__table__event">Breakfast</td>
-            </tr>
-            <tr>
-              <td class="schedule__table__time">1:00 p.m.</td>
-              <td class="schedule__table__event">Lunch</td>
-            </tr>
-            <tr>
-              <td class="schedule__table__time">7:00 p.m.</td>
-              <td class="schedule__table__event">Dinner</td>
-            </tr>
-          </tbody>
-          <thead>
-            <tr class="schedule__table__date">
-              <td colspan="2">Saturday, March 21, 2015</td>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td class="schedule__table__time">1:00 a.m.</td>
-              <td class="schedule__table__event">Late-night snack</td>
-            </tr>
-            <tr>
-              <td class="schedule__table__time">8:00 a.m.</td>
-              <td class="schedule__table__event">Breakfast / hacking ends</td>
-            </tr>
-            <tr>
-              <td class="schedule__table__time">9:00 a.m.</td>
-              <td class="schedule__table__event">Hacks must be submitted</td>
-            </tr>
-            <tr>
-              <td class="schedule__table__time">9:00 - 10:30 a.m.</td>
-              <td class="schedule__table__event">Judging</td>
-            </tr>
-            <tr>
-              <td class="schedule__table__time">10:30 a.m. - 12:00 p.m.</td>
-              <td class="schedule__table__event">Closing talks</td>
-            </tr>
-          </tbody>
-        </table>
+        <div class="schedule__table-container">
+          <table class="schedule__table">
+            <thead>
+              <tr>
+                <td class="schedule__table__date" colspan="2">
+                  <span class="schedule__table__date-day">Friday</span>
+                  <span class="schedule__table__date-date">March 20, 2015</span>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="schedule__table__time">5:30 pm</td>
+                <td class="schedule__table__event">Check-in</td>
+              </tr>
+              <tr>
+                <td class="schedule__table__time">6:30 pm</td>
+                <td class="schedule__table__event">Opening talks</td>
+              </tr>
+              <tr>
+                <td class="schedule__table__time">7:00 pm</td>
+                <td class="schedule__table__event">Dinner</td>
+                <td class="schedule__table__event"></td>
+              </tr>
+              <tr>
+                <td class="schedule__table__time">8:00 pm</td>
+                <td class="schedule__table__event">Hacking begins</td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="schedule__table">
+            <thead>
+              <tr>
+                <td class="schedule__table__date" colspan="2">
+                  <span class="schedule__table__date-day">Saturday</span>
+                  <span class="schedule__table__date-date">March 21, 2015</span>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="schedule__table__time">1:00 am</td>
+                <td class="schedule__table__event">Late-night snack</td>
+              </tr>
+              <tr>
+                <td class="schedule__table__time">8:00 am</td>
+                <td class="schedule__table__event">Breakfast</td>
+              </tr>
+              <tr>
+                <td class="schedule__table__time">1:00 pm</td>
+                <td class="schedule__table__event">Lunch</td>
+              </tr>
+              <tr>
+                <td class="schedule__table__time">7:00 pm</td>
+                <td class="schedule__table__event">Dinner</td>
+              </tr>
+            </tbody>
+          </table>
+          <table class="schedule__table">
+            <thead>
+              <tr>
+                <td class="schedule__table__date" colspan="2">
+                  <span class="schedule__table__date-day">Sunday</span>
+                  <span class="schedule__table__date-date">March 22, 2015</span>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="schedule__table__time">1:00 am</td>
+                <td class="schedule__table__event">Late-night snack</td>
+              </tr>
+              <tr>
+                <td class="schedule__table__time">8:00 am</td>
+                <td class="schedule__table__event">Breakfast / hacking ends</td>
+              </tr>
+              <tr>
+                <td class="schedule__table__time">9:00 am</td>
+                <td class="schedule__table__event">Hacks must be submitted</td>
+              </tr>
+              <tr>
+                <td class="schedule__table__time">9:00 am</td>
+                <td class="schedule__table__event">Judging</td>
+              </tr>
+              <tr>
+                <td class="schedule__table__time">10:30 am</td>
+                <td class="schedule__table__event">Closing talks</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>
     <div id="sponsors" class="section sponsors">
