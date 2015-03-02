@@ -326,6 +326,7 @@ textarea {
   color: #40B26F;
   display: inline-block;
   font-family: "Karla";
+  font-size: 0.9em;
   font-weight: bold;
   letter-spacing: 0.5px;
   margin-bottom: 0;
@@ -335,7 +336,7 @@ textarea {
 
 .schedule__table__date-date {
   display: block;
-  font-size: 0.9em;
+  font-size: 0.85em;
 }
 
 .schedule__table__time {
