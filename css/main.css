@@ -386,18 +386,19 @@ textarea {
   margin-bottom: 60px;
 }
 
-.sponsors__tier__row--small img {
-
-}
-
 .sponsors__tier__row:last-child {
   margin-bottom: 0;
 }
 
 .sponsors__tier a {
-  padding-bottom: 1em;
-  padding-top: 1em;
+  padding-bottom: 2em;
+  padding-top: 2em;
   text-decoration: none;
+}
+
+.sponsors__tier img {
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .sponsors__tier--platinum img {
@@ -405,20 +406,44 @@ textarea {
 }
 
 .sponsors__tier--gold img {
-  max-height: 5em;
+  max-height: 6em;
+  max-width: 22em;
 }
 
 .sponsors__tier--silver img {
   max-height: 5em;
-  max-width: 30%;
+  max-width: 16em;
 }
 
 .sponsors__tier--partner img {
   max-height: 4em;
+  max-width: 19em;
+}
+
+.sponsors__tier--partner a {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+/* .sponsors__tier--platinum img {
+  max-height: 6em;
+} */
+
+/* .sponsors__tier--gold img {
+  max-height: 5em;
+} */
+
+/* .sponsors__tier--silver img {
+  max-height: 5em;
+  max-width: 30%;
+} */
+
+/* .sponsors__tier--partner img {
+  max-height: 4em;
   margin-left: 2em;
   margin-right: 2em;
   max-width: 35%;
-}
+} */
 
 .sponsors__tier--partner .sponsor--asus,
 .sponsors__tier--partner .sponsor--kloudless {
@@ -426,65 +451,6 @@ textarea {
   max-width: 15%;
 }
 
-
-/*
-.tier {
-  border-bottom: 1px solid #5C6352;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 50em;
-
-  img {
-    margin: 2em 0;
-    max-height: 10em;
-    max-width: 80%;
-  }
-}
-
-.tier-title {
-  color: #8ea58e;
-  font-size: 1em;
-  font-weight: 600;
-  margin-bottom: 0;
-}
-
-.tier-platinum {
-  img {
-    max-height: 6em;
-  }
-}
-
-.tier-gold {
-  img {
-    max-height: 3em;
-    margin-left: 2.5em;
-    margin-right: 2.5em;
-    max-width: 29%;
-  }
-}
-
-.tier-silver {
-  img {
-    max-height: 3.3em;
-    margin-left: 1em;
-    margin-right: 1em;
-    max-width: 20%;
-
-    &.logo-bu {
-      max-width: 35% !important;
-    }
-  }
-}
-
-.tier-partner {
-  img {
-    max-height: 4em;
-    margin-left: 1em;
-    margin-right: 1em;
-    max-width: 38%;
-  }
-}
-*/
 
 .faq__row {
   display: -webkit-box;
@@ -630,19 +596,19 @@ textarea {
     padding: 0 2em;
   }
 
+  .schedule__table-container {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+  }
 
-.schedule__table-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-}
+  .schedule__table {
+    margin: 20px auto;
+    width:80%;
+  }
 
-.schedule__table {
-  margin: 20px auto;
-  width:80%;
-}
   .faq__row__item:first-child {
     padding-right: 1.5em;
   }
@@ -687,9 +653,9 @@ textarea {
     display: none;
   }
 
-.map {
-  height: 300px;
-}
+  .map {
+    height: 300px;
+  }
 
   .faq__row {
     -webkit-box-orient: vertical;
@@ -745,11 +711,16 @@ textarea {
   }
 
   .map {
-  height: 200px;
-}
+    height: 200px;
+  }
+
+  .sponsors__tier--partner .sponsor--asus,
+  .sponsors__tier--partner .sponsor--kloudless {
+    max-width: 35%;
+  }
 
 }
-v
+
 
 /* ==========================================================================
    Helper classes
