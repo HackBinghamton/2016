@@ -358,6 +358,65 @@ textarea {
   text-align: center;
 }
 
+.sponsors__tier {
+  border-bottom: 1px solid #dedede;
+  text-align: center;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.sponsors__tier__title {
+  color: rgb(200, 200, 200);
+  font-weight: 300;
+  margin-bottom: 40px;
+  margin-top: 0;
+}
+
+.sponsors__tier__row {
+  margin-bottom: 60px;
+}
+
+.sponsors__tier__row--small img {
+
+}
+
+.sponsors__tier__row:last-child {
+  margin-bottom: 0;
+}
+
+.sponsors__tier a {
+  padding-bottom: 1em;
+  padding-top: 1em;
+  text-decoration: none;
+}
+
+.sponsors__tier--platinum img {
+  max-height: 6em;
+}
+
+.sponsors__tier--gold img {
+  max-height: 5em;
+}
+
+.sponsors__tier--silver img {
+  max-height: 5em;
+  max-width: 30%;
+}
+
+.sponsors__tier--partner img {
+  max-height: 4em;
+  margin-left: 2em;
+  margin-right: 2em;
+  max-width: 35%;
+}
+
+.sponsors__tier--partner .sponsor--asus,
+.sponsors__tier--partner .sponsor--kloudless {
+  max-height: 2em;
+  max-width: 15%;
+}
+
+
 /*
 .tier {
   border-bottom: 1px solid #5C6352;
