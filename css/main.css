@@ -217,6 +217,16 @@ textarea {
   text-align:center;
 }
 
+.header__cta__tagline__block__left {
+  display: inline-block;
+  padding-right: 1em;
+}
+
+.header__cta__tagline__block__right {
+  display: inline-block;
+  margin-left: 1em;
+}
+
 .header__cta__buttons {
   margin: 3em 0;
   text-align: center;
@@ -653,6 +663,26 @@ textarea {
     width: 90%;
   }
 
+  .header__cta__tagline__block__left {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .header__cta__tagline__divider {
+    display: none;
+  }
+
+  .header__cta__tagline__block__right {
+    display: block;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+
   .header__navigation__list {
     display: none;
   }
@@ -796,3 +826,4 @@ v
 .clearfix:after {
   clear: both;
 }
+
