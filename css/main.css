@@ -425,30 +425,15 @@ textarea {
   margin-right: 2em;
 }
 
-/* .sponsors__tier--platinum img {
-  max-height: 6em;
-} */
+.sponsors__tier .sponsor--pebble {
+  max-width: 12em;
+}
 
-/* .sponsors__tier--gold img {
-  max-height: 5em;
-} */
-
-/* .sponsors__tier--silver img {
-  max-height: 5em;
-  max-width: 30%;
-} */
-
-/* .sponsors__tier--partner img {
-  max-height: 4em;
-  margin-left: 2em;
-  margin-right: 2em;
-  max-width: 35%;
-} */
-
-.sponsors__tier--partner .sponsor--asus,
-.sponsors__tier--partner .sponsor--kloudless {
-  max-height: 2em;
-  max-width: 15%;
+.sponsors__tier .sponsor--asus,
+.sponsors__tier .sponsor--kloudless,
+.sponsors__tier .sponsor--leap-motion {
+  max-height: 2.5em;
+  max-width: 9em;
 }
 
 
@@ -797,4 +782,3 @@ textarea {
 .clearfix:after {
   clear: both;
 }
-
