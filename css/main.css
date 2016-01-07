@@ -148,9 +148,9 @@ textarea {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
+  -webkit-justify-content: flex-start;
       -ms-flex-pack: justify;
-          justify-content: space-between;
+          justify-content: flex-start;
 }
 
 .logo--header {
@@ -597,6 +597,12 @@ textarea {
   .container {
     width: 90%;
   }
+
+  /* Don't change the width of the header so the logo doesn't shift around */
+  #header__container {
+    width: auto;
+  }
+
   .about__info-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
