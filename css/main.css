@@ -416,7 +416,11 @@ textarea {
 }
 
 .sponsors__tier__row {
-  margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  /* margin-bottom: 60px; */
 }
 
 .sponsors__tier__row:last-child {
@@ -462,11 +466,9 @@ textarea {
   max-width: 12em;
 }
 
-.sponsors__tier .sponsor--asus,
-.sponsors__tier .sponsor--kloudless,
-.sponsors__tier .sponsor--leap-motion {
+.sponsors__tier .sponsor--microsoft,
+.sponsors__tier .sponsor--kloudless {
   max-height: 2.5em;
-  max-width: 9em;
 }
 
 
@@ -747,7 +749,7 @@ textarea {
     height: 200px;
   }
 
-  .sponsors__tier--partner .sponsor--asus,
+  .sponsors__tier--partner .sponsor--microsoft,
   .sponsors__tier--partner .sponsor--kloudless {
     max-width: 35%;
   }
