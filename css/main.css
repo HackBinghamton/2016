@@ -416,11 +416,15 @@ textarea {
 }
 
 .sponsors__tier__row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: justify;
+          justify-content: space-around;
   flex-wrap: wrap;
-  justify-content: space-around;
-  /* margin-bottom: 60px; */
 }
 
 .sponsors__tier__row:last-child {
@@ -460,10 +464,6 @@ textarea {
 .sponsors__tier--partner a {
   margin-left: 2em;
   margin-right: 2em;
-}
-
-.sponsors__tier .sponsor--pebble {
-  max-width: 12em;
 }
 
 .sponsors__tier .sponsor--microsoft,
@@ -749,11 +749,10 @@ textarea {
     height: 200px;
   }
 
-  .sponsors__tier--partner .sponsor--microsoft,
-  .sponsors__tier--partner .sponsor--kloudless {
-    max-width: 35%;
+  .sponsor--bu img {
+      width: 100%;
+      height: auto;
   }
-
 }
 
 
