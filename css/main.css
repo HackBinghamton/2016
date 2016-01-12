@@ -228,13 +228,13 @@ textarea {
 }
 
 .header__cta__buttons {
-  margin: 3em 0;
+  margin: 2em 0;
   text-align: center;
 
 }
 
 .header__cta__buttons__button {
-  margin: 0 0.4em;
+  margin: 0 0.4em 1em 0.4em;
 }
 
 
