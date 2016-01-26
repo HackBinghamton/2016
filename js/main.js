@@ -15,14 +15,14 @@ function initialize_maps() {
       {"visibility":"simplified"}]}]
   });
 
-  var academicAMarker = new google.maps.Marker({ 
+  var eventPin = new google.maps.Marker({
     position: new google.maps.LatLng(42.0943754,-75.9585148),
     map: map,
     title: "HackBU at the ITC Complex"
   });
 
-  google.maps.event.addListener(academicAMarker, 'click', function() {
-    window.open("https://www.google.com/maps/place/Academic+Bldg+A/@42.0943754,-75.9585148,17z/data=!3m1!4b1!4m2!3m1!1s0x89daeeb84ab6343d:0x7aabe0021d7b218e","_blank");
+  google.maps.event.addListener(eventPin, 'click', function() {
+    window.open("https://goo.gl/maps/3eDqNBZpXxt","_blank");
   });
 }
 
