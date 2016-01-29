@@ -425,6 +425,7 @@ textarea {
       -ms-flex-pack: justify;
           justify-content: space-around;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .sponsors__tier__row:last-child {
