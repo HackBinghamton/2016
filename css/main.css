@@ -450,7 +450,7 @@ textarea {
 
 .sponsors__tier--gold img {
   max-height: 6em;
-  max-width: 20em;
+  max-width: 22em;
 }
 
 .sponsors__tier--silver img {
@@ -749,6 +749,10 @@ textarea {
 
   .map {
     height: 200px;
+  }
+
+  .sponsors__tier--gold img {
+      max-width: 90%;
   }
 
   .sponsor--bu img {
