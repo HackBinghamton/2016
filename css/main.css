@@ -445,6 +445,7 @@ textarea {
 
 .sponsors__tier--platinum img {
   max-height: 9em;
+  max-width: 100%;
 }
 
 .sponsors__tier--gold img {
